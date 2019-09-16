@@ -70,7 +70,7 @@ export default class City extends React.Component {
                     <View style = {styles.main}> 
                         {   
                             !city.locations.length && 
-                            <CenterMessage message = 'No drinks added :('/> 
+                            <CenterMessage message = 'No places added :('/> 
                         }
                         { 
                             city.locations.map((location, index) => ( 
@@ -82,14 +82,14 @@ export default class City extends React.Component {
                         }
                         <TextInput
                             value = {this.state.name}
-                            placeholder = 'Name of Drink' 
+                            placeholder = 'Name' 
                             onChangeText = {val => this.OnChangeText('name', val)}
                             style = {styles.input} 
                             placeholderTextColor = 'white'
                         /> 
                         <TextInput 
                             value = {this.state.info}
-                            placeholder = 'Sweetness, Ice, and Toppings' 
+                            placeholder = 'Info' 
                             onChangeText = {val => this.OnChangeText('info', val)}
                             style = {[styles.input, styles.input2]} 
                             placeholderTextColor = 'white'
@@ -97,7 +97,7 @@ export default class City extends React.Component {
                         <View style = {styles.buttonContainer}> 
                             <TouchableOpacity onPress = {this.addLocation}>
                                 <View style = {styles.button}>
-                                    <Text style = {styles.buttonText}>Add Drink!</Text>
+                                    <Text style = {styles.buttonText}>Add location!</Text>
                                 </View> 
                             </TouchableOpacity>
                         </View>
