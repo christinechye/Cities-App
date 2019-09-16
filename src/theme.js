@@ -1,5 +1,5 @@
 const colors = { 
-    primary: 'lightpink',
+    primary: '#D81B60',
     button: 'lemonchiffon'
 }
 
