@@ -15,7 +15,7 @@ import CenterMessage from '../components/CenterMessage'
 export default class Cities extends React.Component { 
 
     static navigationOptions = { 
-        title: 'Boba Stores',  // previously named 'Cities'
+        title: 'Cities',  
         headerTitleStyle: { 
             color: 'white', 
             fontSize: 20, 
