@@ -1,2 +1,2 @@
 # Cities-App
-A test app with the framework to build another app, Happy Boba. 
+A test app that's been updated based on this tutorial: https://www.youtube.com/watch?v=whZNYPldMEY 
