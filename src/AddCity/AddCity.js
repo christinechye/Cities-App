@@ -57,22 +57,22 @@ export default class AddCity extends React.Component {
 
         return ( 
             <View style = {styles.container}>
-                <Text style={styles.heading}>Where did you get boba?</Text> 
+                <Text style={styles.heading}>Add a City</Text> 
                 <TextInput 
-                placeholder = 'Boba Shop'
+                placeholder = 'City'
                 value = {this.state.city}
                 onChangeText={val => this.OnChangeText('city', val)}
                 style = {styles.input}
                 /> 
                 <TextInput 
-                placeholder = 'Location'
+                placeholder = 'Country'
                 value = {this.state.country}
                 onChangeText={val => this.OnChangeText('country', val)}
                 style = {styles.input}
                 /> 
                 <TouchableOpacity onPress = {this.submit}> 
                     <View style = {styles.button}> 
-                        <Text style={styles.buttonText}>Add Store!</Text>
+                        <Text style={styles.buttonText}>Add City!</Text>
                     </View>
                 </TouchableOpacity>
             </View> 
